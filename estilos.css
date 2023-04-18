@@ -23,3 +23,82 @@ header a{
     background-color: #880912;
 }
 
+.nav-link{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+}
+
+.nav-link a {
+    color: rgb(243, 237, 237);
+}
+.contenedorIndex{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.productos{
+    width: 75%;
+    margin-left: 12%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5%;
+    border-radius: 15px;
+    border: solid #880912;
+    box-shadow: rgba(135, 129, 129, 0.423)0px 5px;
+    background-image: url(/src/anteojosBackground.jpg);
+}
+
+.contenedorIndex :first-child {
+    background-position: center;
+}
+
+.contenedorIndex :last-child{
+    background-attachment: fixed;
+}
+.productos a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.productos a:hover{
+    color: #880912;
+}
+
+.contenedorFooter{
+    display: flex;
+    flex-direction: row;
+    background-color: #880912;
+    height: 180px;
+    font-size: 36px;
+    font-family: 'Dancing Script', cursive;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    height: 40%;
+    width: 15%;
+    margin: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+@media (max-width: 480px){
+    .productos{
+        font-size: 80%;
+    }
+
+    .contenedorFooter h2{
+        display: none;
+    }
+}
+
+/*fin del index*/
+
+
