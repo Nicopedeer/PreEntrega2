@@ -16,19 +16,17 @@ header{
 header a{
     text-decoration: none;
     color: rgb(243, 237, 237);
-    font-size: 80px;
+    font-size: 128px;
 }
 
 .container-fluid{
     background-color: #880912;
+    padding-left: 38%;
 }
 
 .nav-link{
     font-family: 'Bebas Neue', cursive;
     font-size: 24px;
-}
-
-.nav-link a {
     color: rgb(243, 237, 237);
 }
 .contenedorIndex{
@@ -93,12 +91,53 @@ header a{
     .productos{
         font-size: 80%;
     }
-
+    .logo{
+        width: 50%;
+    }
     .contenedorFooter h2{
         display: none;
     }
 }
 
 /*fin del index*/
+
+.categoria{
+    width: fit-content;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 20%;
+    margin-left: 20%;
+    background-color: rgb(196, 192, 192);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.item img{
+    width: 250px;
+  	height: 150px;
+    border-radius: 3px;
+    margin: 5px;
+}
+
+@media (max-width: 480px) {
+
+    .item{
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: scroll;
+        flex-direction: row;
+        width: 300px;
+    }
+
+    .categoria{
+        align-items: center;
+        margin-left: 25px;
+    }
+}
+
+/*fin de accesorios*/
+
+
+
 
 
