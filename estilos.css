@@ -273,4 +273,55 @@ header a{
     }
 }
 
+/*fin de ingresos*/
 
+.contenedorMarca{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.marca{
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+    background-color: gray;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.marca img{
+    width: 350px;
+    height: 200px;
+    border: #880912 solid 3px;
+    border-radius: 15px;
+    margin-right: 3%;
+}
+
+.marca p{
+    text-align: justify;
+    padding: 5px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+}
+
+@media(max-width : 480px){
+    .marca{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .marca img{
+        width: 280px;
+        height: 160px;
+        
+    }
+
+    .marca p{
+        text-align: center;
+    }
+}
